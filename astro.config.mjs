@@ -11,7 +11,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: import.meta.env.BASE_URL,
+  site: import.meta.env.PUBLIC_BASE_URL,
   base: '/',
 
 
